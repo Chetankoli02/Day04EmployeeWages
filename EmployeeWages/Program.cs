@@ -16,5 +16,9 @@ internal class Program
 
         SwitchCase switchCase = new SwitchCase();
         switchCase.Main(args);
+
+
+        MonthWages monthWages = new MonthWages();
+        monthWages.Main(args);
     }
 }
