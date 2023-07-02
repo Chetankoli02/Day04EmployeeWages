@@ -12,5 +12,9 @@ internal class Program
 
         PartTimeWages partTimeWages = new PartTimeWages();
         partTimeWages.Main(args);
+
+
+        SwitchCase switchCase = new SwitchCase();
+        switchCase.Main(args);
     }
 }
