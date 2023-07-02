@@ -20,5 +20,9 @@ internal class Program
 
         MonthWages monthWages = new MonthWages();
         monthWages.Main(args);
+
+
+        HoursReachedMonth hoursReachedMonth = new HoursReachedMonth();
+        hoursReachedMonth.Main(args);
     }
 }
